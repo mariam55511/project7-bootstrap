@@ -1,0 +1,706 @@
+/* _________Generaal__________ */
+ *{
+    box-sizing: border-box;
+ }
+ .body{
+    scroll-behavior: smooth;
+ }
+.background{
+    background-color:  rgba(0, 0, 0, 0.983)!important;
+}
+.bg-image{
+    background-image: url('../images/overlay-bg.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; 
+    color:white;
+}
+h1{
+    font-size: 70px;
+}
+
+.section h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.line2{
+    width:20%;
+    height:3px;
+    position: absolute;
+    top:10%;
+    left:0%;
+}
+.section h2::before {
+ content:"";
+ width:50px;
+ height: 5px;
+ position:absolute;
+bottom:-50px;
+ left:50%;
+ transform: translateX(-50%);
+background-color: #0078ff;
+}
+
+
+/* ______home section______ */
+.nav-link {
+    color:white;
+}
+.line-active{
+    width:40%;
+    height:2px;
+    background-color: white;
+    position: absolute;
+    bottom:5px;
+    left:17px;
+}
+ .line{
+   height:2px;
+    background-color: white;
+    position: absolute;
+    bottom:5px;
+    left:17px;
+ }
+ .link:hover .line{
+    display: block !important;
+    animation: bigger 0.5s linear infinite alternate ;
+    -webkit-animation: bigger 0.5s linear infinite alternate ;
+}
+
+a:hover{
+    color:white;
+}
+ @keyframes bigger {
+    0%{
+        width:10%;
+    
+    }
+    40%{
+        width:20%;
+    }
+    80%{
+        width:30%;
+    }
+    100%{
+        width:40%;
+    }
+    
+ }
+.navbar-brand{
+    font-size: 30px;
+    color:white !important;
+}
+ #home{
+    min-height: 100vh;
+ }
+.home-item{
+
+    background-image: url('../images/hero-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.layer{
+    background-color: rgba(0, 0, 0, 0.432);
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.content h2::after {
+    content:'';
+    color: white;
+    font-size: 40px;
+    animation: moving 9s 0s linear infinite alternate;
+    -webkit-animation: moving 9s 0s linear infinite ;
+}
+
+@keyframes moving {
+    0%{
+       content:'D|'
+    }
+    1%{
+        content:'DE|'
+    }
+    
+    2%{
+        content:'DES|'
+    }
+    3%{
+        content:'DESI|'
+    }
+    4%{
+        content:'DESIG|'
+    }
+    5%{
+        content:'DESIGN|'
+    }
+    6%{
+        content:'DESIGNE|'
+    }
+    7%{
+        content:'DESIGNER|'
+    }
+    8%{
+        content:'DESIGNER|'
+    }
+    9%{
+        content:'DESIGNER|'
+    }
+    10%{
+        content:'DESIGNER|'
+    }
+    11%{
+        content:'DESIGNER|'
+    }
+    12%{
+        content:'DESIGNER|'
+    }
+    13%{
+        content:'DESIGNE|'
+    }
+    14%{
+        content:'DESIG|'
+    }
+    15%{
+        content:'DESI|'
+    }
+    16%{
+        content:'DES|'
+     }
+    17%{
+         content:'DE|'
+     }
+     18%{
+        content:'DE|'
+    }
+     
+    19%{
+         content:'DEV|'
+     }
+    20%{
+         content:'DEVE|'
+     }
+    21%{
+         content:'DEVEL|'
+     }
+    22%{
+         content:'DEVELO|'
+     }
+    23%{
+         content:'DEVELOP|'
+     }
+    24%{
+         content:'DEVELOPE|'
+     }
+    25%{
+         content:'DEVELOPER|'
+     }
+     26%{
+        content:'DEVELOPER|'
+    }
+     27%{
+        content:'DEVELOPER|'
+    }
+    28%{
+        content:'DEVELOPER|'
+    }
+    29%{
+        content:'DEVELOPER|'
+    }
+    30%{
+        content:'DEVELOPER|'
+    }
+    31%{
+         content:'DEVELOPE|'
+     }
+    32%{
+         content:'DEVELOP|'
+     }
+    33%{
+        content:'DEVELO|'
+     }
+    34%{
+         content:'DEVEL|'
+     }
+     
+    35%{
+         content:'DEVE|'
+     }
+    36%{
+         content:'DEV|'
+     }
+    37%{
+         content:'DE|'
+     }
+    38%{
+         content:'D|'
+     }
+    39%{
+         content:'|';
+     }
+     40%{
+        content:'|';
+    }
+    41%{
+        content:'|';
+    }
+    42%{
+         content:'F|';
+     }
+    43%{
+         content:'FR|';
+     }
+    44%{
+         content:'FRE|';
+     }
+    45%{
+         content:'FREE|';
+     }
+    46%{
+      content:'FREEL|';
+     }
+    47%{
+         content:'FREELA|';
+     }
+     
+     48%{
+         content:'FREELAN|';
+     }
+     49%{
+         content:'FREELANC|';
+     }
+     50%{
+         content:'FREELANCE|';
+     }
+     51%{
+         content:'FREELANCER|';
+     }
+     52%{
+        content:'FREELANCER|';
+    }
+    53%{
+        content:'FREELANCER|';
+    }
+    54%{
+        content:'FREELANCER|';
+    }
+    55%{
+        content:'FREELANCER|';
+    }
+    56%{
+        content:'FREELANCER|';
+    }
+     57%{
+         content:'FREELANCE|';
+     }
+     58%{
+         content:'FREELANC|';
+     }
+     59%{
+         content:'FREELAN|';
+     }
+     60%{
+         content:'FREELA|';
+     }
+     61%{
+         content:'FREEL|';
+     }
+     62%{
+        content:'FREE|';
+     }
+     63%{
+         content:'FRE|';
+     }
+     
+     64%{
+         content:'FR|';
+     }
+     65%{
+         content:'F|';
+     }
+     66%{
+         content:'|';
+     }
+     67%{
+        content:'|';
+    }
+    68%{
+        content:'|';
+    }
+     69%{
+         content:'P|';
+     }
+     70%{
+         content:'PH|';
+     }
+    71%{
+         content:'PHO|';
+     }
+     72%{
+         content:'PHOT|';
+     }
+     73%{
+         content:'PHOTO|';
+     }
+     74%{
+         content:'PHOTOG|';
+     }
+     75%{
+        content:'PHOTOGR|';
+     }
+     76%{
+         content:'PHOTOGRA|';
+     }
+     
+     77%{
+         content:'PHOTOGRAP|';
+     }
+     78%{
+         content:'PHOTOGRAPH|';
+     }
+     79%{
+         content:'PHOTOGRAPHE|';
+     }
+     80%{
+         content:'PHOTOGRAPHER|';
+     }
+     81%{
+        content:'PHOTOGRAPHER|';
+    }
+    82%{
+        content:'PHOTOGRAPHER|';
+    }
+    83%{
+        content:'PHOTOGRAPHER|';
+    }
+    84%{
+        content:'PHOTOGRAPHER|';
+    }
+    85%{
+        content:'PHOTOGRAPHER|';
+    }
+    
+     86%{
+         content:'PHOTOGRAPHE|';
+     }
+     87%{
+        content:'PHOTOGRAPH|';
+    }
+    88%{
+        content:'PHOTOGRAP|';
+    }
+    89%{
+        content:'PHOTOGRA|';
+    }
+    90%{
+        content:'PHOTOGR|';
+    }
+    91%{
+       content:'PHOTOG|';
+   }
+    92%{
+        content:'PHOTO|';
+    }
+    93%{
+        content:'PHOT|';
+   }
+   94%{
+    content:'PHO|';
+   }
+   95%{
+    content:'PH|';
+   }
+   96%{
+    content:'P|';
+   }
+   97%{
+    content:'|';
+   }
+   98%{
+    content:'|';
+   }
+   99%{
+    content:'|';
+   }
+   100%{
+    content:'|';
+   }
+  
+   
+}
+
+/* ______about section______ */
+
+#about{
+    background-color: rgba(228, 225, 225, 0.418);
+}
+
+
+
+
+
+.about-content p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    max-width: 500px;
+}
+
+
+/* services section */
+#services{
+    background-color: rgba(228, 225, 225, 0.418);
+}
+
+.border{
+    border-radius: 20px;
+    border:0px !important;
+    box-shadow: 0 5px 5px -2px rgba(128, 128, 128, 0.331);
+}
+.icon-bord{
+width:120px;
+height:120px;
+font-size: 40px;
+border:#0078ff 10px solid;
+display: flex;
+align-items: center;
+justify-content: center;
+transition-duration: 1s;
+}
+
+.icon-bord:hover{
+    border-color: #daedf4; 
+    background-color: #0078ff;
+    color:white;
+}
+
+
+/* completed-works section */
+.works{
+    background-image: url('../images/counters-bg.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; 
+    color:white;
+}
+.icon-bord2{
+    width:80px;
+    height:80px;
+    font-size: 25px;
+    border:rgb(205,225,248)10px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+   
+    }
+   .head h5{
+     max-width: 200px ;
+     
+   }
+    .layer2{
+        position: absolute;
+        top:0px;
+        left:0px;
+        background-color: rgba(2, 119, 253, 0.7);
+    }
+
+
+    /* portfolio section */
+#portfolio .card{
+    background-color: rgba(228, 225, 225, 0.418); 
+    border:0px;
+}
+.card{
+   
+    box-shadow: 0 5px 5px -2px rgba(128, 128, 128, 0.331);
+}
+    .card-img{
+              overflow: hidden;
+             
+    }
+    #portfolio .card img{
+        transition: transform 1s ;
+        width:100%;
+        
+
+}   
+    #portfolio .card:hover img{
+       transform: scale(1.2);
+
+} 
+
+.icon-bord3{
+    width:40px;
+    height:40px;
+    font-size: 25px !important;
+    border:#0078ff 3px solid;
+    color:#0078ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+.card-content p{
+    font-size: small;
+}
+
+/* slider sectio */
+.layer3{
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: rgba(2, 119, 253, 0.7);
+}
+
+#carouselExampleIndicators{
+ width:62%;
+}
+.carousel-indicators li{
+    width:12px;
+    height:12px;
+    border-radius: 50% 50%;
+    
+}
+.carousel-item p{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+/* blog section */
+
+#blog{
+    background-color: rgba(228, 225, 225, 0.418);
+}
+
+
+.blog-content a{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.846);
+    transition-duration: 1s;
+}
+.blog-content a:hover{
+    
+    color: #0078ff;
+}
+
+.box{
+    width:fit-content;
+    position: absolute;
+    bottom:-15;
+    left:50%;
+    transform: translateX(-50%);
+  
+}
+.box h6{
+     display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
+   
+}
+
+.bord{
+   background-color:  rgba(228, 225, 225, 0.418);
+}
+.clock p{
+    color:#4e4e4e;
+}
+
+.blog-header a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    transition-duration: 1s;
+}
+.blog-header a:hover{
+    
+    color: #0078ff;
+}
+.blog-header img{
+    width:35px;
+    height:35px;
+}
+
+/* contact section */
+
+#contact{
+    box-shadow: 0 5px 7px -2px #0154b3;
+}
+.contact-desc p{
+    font-size: 1.25rem;
+    font-weight: 300;
+   
+}
+.contact-desc h6{
+     color:rgba(0, 0, 0, 0.693);
+     font-weight: 400;
+}
+.contact-desc h6 i{
+    color:#0078ff !important;
+    
+}
+.icon-bord4{
+    width:50px;
+    height:50px;
+    font-size: 20px !important;
+    border:#0078ff 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+   
+    }
+    #contact button {
+        border-width:5px;
+        border-color: transparent;
+       color:white;
+       background-color: #0078ff;
+       font-size: large;
+    }
+    .icon-bord4 {
+        color:black !important;
+        transition-duration: 1s;
+        }
+
+ .icon-bord4:hover{
+      border-color: #daedf4; 
+      background-color: #0078ff;
+      color:white !important;
+      cursor: pointer;
+    }
+    #contact button:hover {
+        border-color:#daedf4  !important;
+        border-style: solid;
+        
+        background-color: #0077ffcc;
+        cursor: pointer; 
+    }
+
+
+    /* footer section */
+    .arrow-up{
+        width:40px;
+        height:40px;
+        position:fixed;
+        right:15;
+        bottom:15px;
+        scroll-behavior: smooth;
+        z-index: 1038383;
+    }
+    .arrow-up i{
+        color:white;
+        font-size: 20px;
+    }
+    .footer{
+        overflow: hidden;
+        background-color: #0062d3;
+    }
+    .footer-content{
+ 
+        color:white;
+    }
